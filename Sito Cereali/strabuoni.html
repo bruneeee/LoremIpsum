@@ -2,8 +2,7 @@
 <html>
 <head>
 	<title>Strabuoni</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/demo.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/footer-distributed-with-contact-form.css">
     <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
@@ -71,7 +70,7 @@
 			<hr>
 			<div class="col-md-12 altriProdotti">
 				<div class="" ng-repeat="s in products">
-					<div class="col-md-4 latteDiv">
+					<div class="col-md-4 col-xs-4 latteDiv">
 						<img class="img-circle img-responsive latte" src={{s.link}}>
 					</div>
 				</div>
@@ -100,7 +99,7 @@
 			<div class="col-md-6">
 				<h3>Sponsor</h3>
 				<div ng-repeat="s in sponsor">
-					<div class="col-md-4 ">
+					<div class="col-md-4 col-xs-4">
 						<img class="img-circle img-responsive" src={{s.link}}>
 						<p class="sponsor">{{s.description}}</p>
 					</div>
