@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Strabuoni</title>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/footer-distributed-with-contact-form.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <meta charset='utf-8'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="footer, contact, form, icons" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="js/app.js"></script>
+</head>
+<body ng-app="myApp">
+	<div ng-controller="MainController">
+		<div class="container-fluid">
+		<header>
+			<h1 class="title1">Corn Flakes Honey & Peanuts</h1>
+			<nav>
+				<div id='cssmenu'>
+					<ul>
+						<li class='active'><a href='#'><span>Home</span></a></li>
+						<li><a href='#'><span>Products</span></a></li>
+						<li><a href='#'><span>Company</span></a></li>
+						<li class='last'><a href='#'><span>Contact</span></a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		<article class="row">
+			<div class="col-md-5">
+				<img src="img/scatola.jpg" alt="Scatola Cereali" width="400" height="500">
+                <br>
+				<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Valori Nutrizionali</button>
+
+			</div>
+			<div class="col-md-5 col-md-offset-1">
+				<h2 class="titolo1">
+					Corn Flakes <br> Honey n' peands
+				</h2>
+				<p>
+					Dei supermega cereali che vi faranno spaccare il cielo per le urla di gioia!
+					Provateli nel latte freddo, nel the, nella ricotta, con la maionese, in salsa bbq o
+					anche al forno con un pizzico d'aglio, i cereali Strabuoni non vi deluderanno mai.
+					L'originale gusto calzino che gi&agrave riscosse successo nella precedente versione,
+					&egrave  stato riproposto con un alternativo aroma di cannella che provvede a dare la giusta entit&agrave
+					di puzza misto ad odore forte che vi riempir&agrave le narici fino al pelo pi&ugrave interno del vostro apparato
+					respiratorio. Dopo aver annusato i cereali Strabuoni nulla vi sembrer&agrave pi&ugrave come prima.
+					Rimasta invece la vincente scelta di abbinare il sapore delle noci con il retrogusto di garofano che
+					risveglia nelle papille gustative del mangiante una sensazione di freschezza appena colta che non scorder&agrave
+					mai. Mangiateli la mattina, appena svegli e vi doneranno sprint per correre tutto il giorno, meglio del caff&egrave,
+					meglio della teina, meglio delle gocce maggiche del villaggio della pescheria!
+					Alternativamente se cotti al forno sono una stupenderrima idea di contorno da abbinare al pesce del venerd&igrave.
+					Insomma, mangiateli da soli, in compagnia, regalati ad amici e parenti,
+					i cereali Strabuoni vi faranno fare sempre bella figura!
+				</p>
+			</div>
+		</article>
+		<br>
+		<article class="row">
+			<h3 class="titoloProdotti"> Altri prodotti</h3>
+			<hr>
+			<div class="col-md-12 altriProdotti">
+				<div class="" ng-repeat="s in products">
+					<div class="col-md-4 col-xs-4 latteDiv">
+						<img class="img-circle img-responsive latte" src={{s.link}}>
+					</div>
+				</div>
+			</div>
+		</article>
+
+		<article class="row">
+			<hr>
+
+			<div class="col-md-6">
+				<h3>Descrizione azienda</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Mauris volutpat purus a sem ornare, a condimentum lacus sodales.
+					Nulla facilisis sed metus ac vestibulum. Nullam semper urna nec fermentum imperdiet.
+					Praesent pretium a orci laoreet congue. Pellentesque in aliquam purus.</p>
+				<p>Praesent cursus mauris sit amet risus dictum maximus.
+					Proin massa arcu, dapibus quis nisl non, posuere pellentesque sapien. Phasellus a hendrerit lectus.
+					Duis tempor magna ac ipsum porttitor volutpat. In hac habitasse platea dictumst.
+					Nulla vel pellentesque est, a sodales massa. Curabitur tristique risus non blandit ultrices.
+					Aliquam fermentum semper porttitor.
+					Etiam at urna tincidunt, ultricies nibh ut, molestie ex.
+				</p>
+			</div>
+
+			<div class="col-md-6">
+				<h3>Sponsor</h3>
+				<div ng-repeat="s in sponsor">
+					<div class="col-md-4 col-xs-4">
+						<img class="img-circle img-responsive" src={{s.link}}>
+						<p class="sponsor">{{s.description}}</p>
+					</div>
+				</div>
+			</div>
+		</article>
+		<div class="modal fade" id="myModal" role="dialog">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+					<div class="modal-body">
+						<h2>Valori Nutrizionali</h2>
+						<div class="col-md-12 border box-1">
+							<div class="col-md-4 table">
+								<img class="tab img-responsive" src="img/tabella.jpg">
+							</div>
+							<p class="pre" data-dismiss="modal">  <a href="#">vuoi altre info sui valori nutrizionali?</a></p>
+						</div>
+					</div>
+					<div class="modal-footer">
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+			<footer class="footer-distributed">
+			<div class="footer-left">
+				<h3>Lorem<span>Ipsum</span></h3>
+				<p class="footer-links">
+					<a href="#">Home</a>
+					<a href="#">Blog</a>
+					<a href="#">Pricing</a>
+					<a href="#">About</a>
+					<a href="#">Faq</a>
+					<a href="#">Contact</a>
+				</p>
+				<p class="footer-company-name">Corn Flakes Honey and Peanuts &copy; 2015</p>
+				<div class="footer-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-github"></i></a>
+				</div>
+			</div>
+			<div class="footer-right">
+				<p>Contact Us</p>
+				<form method="post">
+					<input type="mail" name="email" placeholder="Es: mario@rossi.com" ng-model="mail"/>
+					<div class="alert alert-warning" ng-show="erroreMail" role="alert">Inserisci una mail valida</div>
+					<textarea name="message" ng-model="mex" placeholder="Message"></textarea>
+					<div class="alert alert-warning" ng-show="erroreMessaggio" role="alert">Devi scrivere un messaggio</div>
+					<img id = "car" src="img/caricamento.gif" ng-show="showLoading">
+					<button type="button" ng-click = 'send()' ng-disabled = "showLoading || sended" ng-hide="showLoading">{{sendText}}</button>
+				</form>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
