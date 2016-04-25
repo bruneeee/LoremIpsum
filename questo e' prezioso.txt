@@ -1,0 +1,70 @@
+la grandezza dei caratteri e' proporzionale all' attenzione che attira
+
+la roba importante va in cima alla pagina
+
+un solo stile x tutto
+
+principio di gestalt -> la distanza di un titolo da un paragrafo aiuta a capire se quel paragrafo apparitiene a quel titolo
+
+prodotti attraenti sono percepiti come piu' utilizzabili
+
+Utilizzare font diversi va bene ma che siano diversi
+
+anche lo spessore del testo attira
+
+la distanza tra il puntatore ed il bottone e' proporzionale alla difficolta' (legge di fitt)
+errori troppo distanti possono non essere notati
+cambiare lo stato aiuta a capire che qualcosa e' cambiato o qualcosa non va
+
+feedback sempre anche se e' solo per far capire che il botton e' stato premuto
+
+la legge di fogg dice che perche' uno con una bassa motivazione faccia qualcosa deve essere facile
+• Time
+
+• Money
+
+• Physical Effort
+
+• Social Deviance
+
+• Non-Routine
+
+• Brain Cycles (Mental Effort)
+
+Legge di hick (piu' sono le opzioni disponibili piu' si e' in difficolta e' quindi si puo' rifiutare di scegliere e rinunciare)
+
+Guidare l'utente
+GEstire gli errori
+Stato del sistema
+
+Assicura gli utenti di gestire i loro dati solo al fine proprio
+Se si sbaglia spiegare perche' si sbaglia, dando un esempio, e non in maniera agressiva, non con termini agressvi (evitare colore rosso, parole in maiuscolo e punti esclamativi), magari anche essere divertenti
+
+le percezioni sono influenzate dalle aspettative
+
+E' efficace far vedere che il prezzo base e' stato tagliato e c'e' uno sconto
+E' efficace porporre scelte che sembrano ovviamente piu' economiche di altre
+
+Se spieghi bene una scena con dettagli uno puo' immergervi di piu'
+
+dissonanza postdecisionale, in qualche modo far promettere di ritornare ad eseguire l'azione
+
+Buone recensioni di altri utenti (specialmente conoscenti) incentivano
+Far vedere che una scelta e' disponibile per poco tempo incentiva
+
+Si e' piou inclini a perdere che a guadagnare
+
+Incentivare l'utente
+
+
+
+-----
+titolo piu' grande
+sopra un serif
+titoli secondari piu' spessi
+cambiare errore messaggio
+ASSICURARE sulla privacy
+Recensioni
+Dare avviso di scadenza offferte
+
+verranno trattati al solo fine di dar seguito alla sua richiesta, oltre che per finalità statistiche e di valutazione della soddisfazione dei nostri clienti. Per ulteriori informazioni sulla nostra Policy sulla Privacy, si ved
