@@ -6,7 +6,7 @@ Codice: Io e Nicolo'
 Stile: Claire
 Disegni: Yaro e Persano
 
-Wireframe: Claire?
+Wireframe: Claire, Persano
 
 Sitemap: Claire, poi Nicolo'
 
