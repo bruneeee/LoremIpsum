@@ -23,7 +23,7 @@
 	<div ng-controller="MainController">
 		<div class="container-fluid">
 		<header>
-			<h1 class="title1">Corn Flakes Honey & Peanuts</h1>
+			<h1 class="titolo1">Corn Flakes Honey & Peanuts</h1>
 			<nav>
 				<div id='cssmenu'>
 					<ul>
@@ -42,7 +42,7 @@
 				<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Valori Nutrizionali</button>
 
 			</div>
-			<div class="col-md-5 col-md-offset-1">
+			<div class="col-md-6">
 				<h2 class="titolo1">
 					Corn Flakes <br> Honey n' peands
 				</h2>
@@ -118,7 +118,7 @@
 							<div class="col-md-4 table">
 								<img class="tab img-responsive" src="img/tabella.jpg">
 							</div>
-							<p class="pre" data-dismiss="modal">  <a href="#">vuoi altre info sui valori nutrizionali?</a></p>
+							<!-- <p class="pre" data-dismiss="modal">  <a href="#">vuoi altre info sui valori nutrizionali?</a></p> -->
 						</div>
 					</div>
 					<div class="modal-footer">
@@ -146,13 +146,15 @@
 					<a href="#"><i class="fa fa-github"></i></a>
 				</div>
 			</div>
+				<p>I dati </p>
 			<div class="footer-right">
 				<p>Contact Us</p>
+
 				<form method="post">
 					<input type="mail" name="email" placeholder="Es: mario@rossi.com" ng-model="mail"/>
-					<div class="alert alert-warning" ng-show="erroreMail" role="alert">Inserisci una mail valida</div>
+					<div class="alert alert-warning" ng-show="erroreMail" role="alert">Sembra che l'indirizzo email non sia valido<br/>Assicurati di inserire il simbolo @ ed un domino valido</div>
 					<textarea name="message" ng-model="mex" placeholder="Message"></textarea>
-					<div class="alert alert-warning" ng-show="erroreMessaggio" role="alert">Devi scrivere un messaggio</div>
+					<div class="alert alert-warning" ng-show="erroreMessaggio" role="alert">Perchè dovresti inviarci una mail senza un messaggio? =)</div>
 					<img id = "car" src="img/caricamento.gif" ng-show="showLoading">
 					<button type="button" ng-click = 'send()' ng-disabled = "showLoading || sended" ng-hide="showLoading">{{sendText}}</button>
 				</form>

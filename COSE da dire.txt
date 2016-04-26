@@ -1,0 +1,82 @@
+Ctlnsqtvs!
+
+Che cosa abbiamo fatto del sito:
+
+Codice: Io e Nicolo'
+Stile: Claire
+Disegni: Yaro e Persano
+
+Wireframe: Claire?
+
+Sitemap: Claire, poi Nicolo'
+
+Contact form e feedback: Persano, Io e Claire
+
+Audit: Persano e Yaro
+
+Brand: Yaro
+
+Analisi competitors: Persano
+
+Brand: Lorem Ipsum
+Il nostro brand punta a soddisfare l’esigenza di avere dei cornflakes buoni che costino poco. Puntiamo ad un consumatore giovane che non si preoccupa eccessivamente dei prodotti salutari ma preferisce qualcosa di buono e gustoso che viene attirato dalla confezione colorata.
+
+
+Il nostro sito e' semplice come vogliamo che sia l'interazione con i consumatori
+La palette del sito e' composta da bianco, azzurro ed arancione, la scelta di colori e' stata fatta usando una ruota di colore, nel nostro caso (color.adobe)
+
+Abbiamo posizionato gli elementi secondo l'ordine in cui volessimo che fossero notati
+cercando di prevedere come agisse la selezione percettiva, quindi per costruire una
+gerarchia visuale abbiamo agito sulla dimensione, la prominenza
+ed il contenuto degli elementi che volevamo fossero notati
+
+In cima al sito, e quindi a prima vista, sono presenti le cose piu' importanti, come il titolo che e' la
+prima cosa notata, e successivamente l'immagine che ha il compito di comunicare il messaggio essenziale del
+prodotto, sulla destra la descrizione del prodotto vera e propria, successivamente balza all' occhio
+il menu di navigazione al centro, dove offriamo al consumatore la possibilita' di visualizzare
+le pagine dei nostri altri prodotti, della nostra compagnia, dove in entrambi pensavamo
+di implementare un menu a cascata (almeno per me sarebbe meglio cosi) e l'apposito form per contattarci che si trova in fondo al sito
+(quindi l'ultimo tab contact sposta la visualizzazione della pagina in fondo 
+in modo da rendere visibile il form ed anche le icone per i social
+che sono presenti sulla sinistra ma questo comunque lo si fa vedere dopo)
+
+
+Sotto l'immagine e' presente un pulsante che visualizza i valori nutrizionali, il modale si puo' chiudere comodamente cliccando
+in una qualsiasi parte dello schermo oltre che sulla x in alto a destra, questo viene spontaneo perche' chi utilizza il computer
+sa che in presenza di una finestra in primo piano, cliccando da un altra parte tale finestra sara' spostata in un secondo piano
+Sotto proponiamo al visitatore della pagina altri diversi prodotti, le immagini (che non abbiamo) fungono da link
+per la pagina del prodotto corrispondente
+
+Quindi seguono sotto le cose che abbiamo ritenuto di secondaria importanza, la descrizione della formazione e della storia
+della nostra azienda, con al fianco gli sponsor
+
+In fondo il footer riporta le informazioni necesssarie per contattarci, anche tramite social, ma sopratutto
+anche un semplice form per contattarci per qualsiasi motivo l'utente voglia
+
+Il form e' costituito semplicemente da mail e messaggio, sapendo che il 40% degli utenti si preoccupa
+riguardo informiamo anche che la mail servira' solo per rincontattare l'utente in caso di necessita',
+in questo modo riusciamo a rendere il form "innocuo".
+
+Ci siamo inoltre occupati di informare dell' attuale stato da inviare, di gestire gli errori
+ed in suddetto caso di informare l'utente come rimediare, il tutto in maniera amichevole
+
+In caso di errore della email informiamo che questa non e' valida con un messaggio che compare al di sopra del campo,
+quindi difficilmente non notabile, che l'email non sembra corretta e quale potrebbe esserne la causa
+Per quanto riguarda il messaggio, l'unico errore relativo che vi puo' essere e' che sia vuoto, in quel caso
+domandiamo "Perchè dovresti mandarci una email senza messaggio? =)"
+
+Nel premere il bottone di invio, sappiamo che e' importante fornire un feedback entro 140 millisecondi, per cui
+mostriamo un animazione che sta ad indicare che l'invio e' in corso, per poi notificare l'avvenuta spedizione del messaggio
+cambiando il testo e lo stato del bottone (da fare)
+
+Il sito appare molto semplice, questo perche' ci siamo basati sull' idea di base di non renderlo "difficile" (non e' vero ma vabbe' diciamolo) quindi seguendo i canoni del modello comportamentale di fogg, quindi che una cosa sia facile da fare anche
+se non si e' particolarmente motivati, nel nostro contesto la nostra pagina e' molto "leggibile" e non richiede sforzi particolari
+per individuare un preciso contenuto
+
+Ok ora:
+1.Qualcuno puo' dire chi siamo e a che cosa puntiamo fondamentalmente
+2.Qualcuno puo' parlare di cosa ci e' stato detto di fare e come ci siamo divisi i lavori (vedi sopra)
+3.Qualcuno puo' parlare di come il sito e' stato strutturato il sito (parte alta sito)
+4.Qualcuno puo' parlare di come funziona il form sotto (parte bassa sito)
+5.Qualcuno puo' parlare delle implementazioni riguardanti la persuasione che intendevamo fare (vedi nostro es)
+Qualcuno che non ha troppo da dire potrebbe parlare (o magari tutti assieme) il perche' degli errori commessi negli esercizi, basta leggere cosa ha scritto lui
