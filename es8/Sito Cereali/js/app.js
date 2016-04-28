@@ -16,7 +16,7 @@ angular.module('myApp', [])
 
         $scope.showLoading = false;
 
-        $scope.sendText = "Send";
+        $scope.sendText = "Invia";
         $scope.sended = false;
 
         $scope.sponsor = [
@@ -73,7 +73,7 @@ angular.module('myApp', [])
         function loaded(){
             //alert("Dio");
             $scope.showLoading = false;
-            $scope.sendText = "Sended!";
+            $scope.sendText = "Messaggio inviato!";
             $scope.sended = true;
             $scope.mail = "";
             $scope.mex = "";
